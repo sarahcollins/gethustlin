@@ -53,9 +53,11 @@ text-align:center;
 
 input[type=text]
 {
-  width: 40%;
-  height: 25px;
+  width: 80%;
+  max-width: 400px;
   min-width: 300px;
+  height: auto;
+  min-height: 25px;
   border: 3px solid #96bf49;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
