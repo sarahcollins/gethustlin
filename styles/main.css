@@ -1,0 +1,136 @@
+html {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: 16px;
+    background: #eee;
+  }
+}
+
+p
+{
+    margin: 0 auto;
+    padding: .5em .5em 1em;
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #000000;
+}
+
+h1
+{
+    margin: 0 auto;
+    padding: 2em .25em 1em;
+    max-width: 1100px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.3em;
+    color: #465da0;
+}
+
+h2
+{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-align: center;
+    color: #000000;
+}
+
+h3
+{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-align: center;
+    color: #000000;
+}
+
+.form
+{
+  padding:3px;
+  text-align:center; 
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.form-container .email {
+  flex-grow: 4;
+  border: 3px solid #96bf49;
+  min-height: 35px;
+  max-width: 400px;
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+.form-container .submit {
+  flex-grow: 1;
+  border: none;
+  background: #96bf49;
+  min-height: 35px;
+  max-width: 150px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait)  {
+  .form-container .submit {
+    max-width: 100%;
+  }
+}
+
+.social
+{
+    text-align: center;
+    letter-spacing: 20px;
+    
+}
+
+ul
+{
+    margin: 0 auto;
+    padding: .5em 2em 1em;
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #000000;
+}
+
+  a:link        
+    {
+        text-decoration: none;
+        color: #939598;
+    }
+  a:visited        
+    {
+        text-decoration: none;
+        color: #939598;
+    }
+  a:hover       
+    {
+        text-decoration: none;
+        color: #68696b;
+    }
+  a:active        
+    {
+        text-decoration: none;
+        color: #939598;
+    }
+
+hr
+{
+    max-width: 600px;
+    border: 0;
+    height: 15px;
+    background: url("../images/small_steps2.png");    
+}
+
